@@ -26,7 +26,7 @@ pipeline {
 
 				echo "Always Run"
 			}
-			sucess{
+			success{
 
 				echo "After Success"
 			}
