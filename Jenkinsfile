@@ -21,6 +21,20 @@ pipeline {
 				}
 			}
 		}
+		post{
+			always{
+
+				echo "Always Run"
+			}
+			sucess{
+
+				echo "After Success"
+			}
+			failure{
+
+				echo "After Failure"
+			}
+		}
 
 
 	
