@@ -16,7 +16,7 @@ pipeline {
 					echo "Build"
 					echo "$PATH"
 				
-			  	sh 'docker version'
+			  	//sh 'docker version'
 				//sh 'mvn --version'
 				echo "Build Number - $env.BUILD_NUMBER"
 				echo "Build TAG - $env.BUILD_TAG"
